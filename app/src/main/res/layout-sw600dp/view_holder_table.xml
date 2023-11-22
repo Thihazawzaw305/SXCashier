@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginStart="@dimen/margin_medium_2"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:backgroundTint="#04A63D"
+    android:background="@drawable/bg_table"
+    android:layout_height="100dp"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTableName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table Name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_marginEnd="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section Name"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        />
+
+
+</RelativeLayout>

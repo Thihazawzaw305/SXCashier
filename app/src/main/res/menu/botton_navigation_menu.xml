@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Table"
+        android:icon="@drawable/baseline_table_restaurant_black_24"
+        android:title="@string/lbl_table" />
+
+    <item
+        android:id="@+id/Room"
+        android:icon="@drawable/baseline_meeting_room_black_24"
+        android:title="@string/lbl_room" />
+</menu>
